@@ -1,0 +1,58 @@
+.add {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  background-color: #0b63ce;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.add:hover {
+  background-color: #084a99;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aad4ff;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.btn-add {
+  padding: 8px 12px;
+  align-self: center;
+  background-color: rgb(124, 117, 160);
+  border: 1px solid #aad4ff;
+  border-radius: 6px;
+  width: 250px;
+}

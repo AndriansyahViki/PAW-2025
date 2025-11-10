@@ -1,0 +1,153 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f7ff;
+  color: #333;
+  padding: 40px;
+  margin: 0;
+}
+
+h2 {
+  color: #0b63ce;
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #aad4ff;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0b63ce;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f8ff;
+}
+
+.add {
+  background-color: #0b63ce;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.add:hover {
+  background-color: #084a99;
+}
+
+/* === FOTO === */
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* === SEARCH DAN TOP BAR === */
+.top-bar {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box form {
+  display: flex;
+  gap: 10px;
+}
+.btn-add {
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid #aad4ff;
+  border-radius: 6px;
+  width: 250px;
+}
+.search-box input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #aad4ff;
+  border-radius: 6px;
+  width: 250px;
+}
+
+.search-box button {
+  background-color: #0b63ce;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #084a99;
+}
+
+/* === PAGINATION === */
+.pagination {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.pagination a {
+  margin: 0 4px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination a.active {
+  background: #0b63ce;
+  color: white;
+  border-color: #0b63ce;
+}
+
+/* === LINK EDIT DELETE === */
+.btn-edit { color: #007bff; text-decoration: none; }
+.btn-del { color: #dc3545; text-decoration: none; }
+
+button:hover {
+  background-color: #084a99;
+}
+
+a {
+  color: #0b63ce;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
